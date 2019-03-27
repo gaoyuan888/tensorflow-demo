@@ -36,7 +36,7 @@ b = tf.Variable(tf.zeros([1]), name="bias")
 # 前向结构
 z = tf.multiply(X, W)+ b
 
-#反向优化
+#反向优化（均方差）（1,2,3,4）[1,2,3,4]
 cost =tf.reduce_mean( tf.square(Y - z))
 learning_rate = 0.01
 #使用TF的梯度下降优化器设定的学习率不断优化W和b使cost最小化，最终使z与Y的误差最小。
@@ -46,8 +46,8 @@ optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost) #Gra
 #初始化变量
 init = tf.global_variables_initializer()
 # 训练参数
-training_epochs = 20
-display_step = 2
+training_epochs = 20#训练多少轮
+display_step = 2#每隔几轮来打印一次loss(损失值)的信息
 
 # 启动session
 with tf.Session() as sess:
