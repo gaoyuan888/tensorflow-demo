@@ -24,7 +24,7 @@ plt.show()
 
 #上述代码看不懂的同学，则需要先学习 Matplotlib
 
-tf.reset_default_graph()
+tf.reset_default_graph()#每一次开始都要重新初始化图
 # 2搭建模型
 # 占位符
 X = tf.placeholder("float")
