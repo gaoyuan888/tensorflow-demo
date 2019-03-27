@@ -48,6 +48,7 @@ init = tf.global_variables_initializer()
 # 训练参数
 training_epochs = 20
 display_step = 2
+#保存模型************************
 saver = tf.train.Saver() # 生成saver
 savedir = "log/"
 # 启动session
