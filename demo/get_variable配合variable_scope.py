@@ -6,7 +6,7 @@ Created on Sun Jul  1 15:34:24 2018
 """
 import tensorflow as tf
 
-tf.reset_default_graph() 
+tf.reset_default_graph()
 
     
 #var1 = tf.get_variable("firstvar",shape=[2],dtype=tf.float32)   

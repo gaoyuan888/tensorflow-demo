@@ -8,7 +8,7 @@ import numpy as np
 import tensorflow as tf 
 
 # 1 创建图的方法
-c = tf.constant(0.0)
+c = tf.constant(0.0)#定义在全局默认图上面
 
 g = tf.Graph()
 with g.as_default():
@@ -32,7 +32,9 @@ print(t)
 
 # 3 获取节点操作op
 a = tf.constant([[1.0, 2.0]])
+print('a.shap',a.shape)
 b = tf.constant([[1.0], [3.0]])
+print('b.shap',b.shape)
 
 tensor1 = tf.matmul(a, b, name='exampleop')
 print(tensor1.name,tensor1) 
