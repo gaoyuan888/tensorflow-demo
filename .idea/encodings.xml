@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/demo/2800.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/BiRNNMnist双向静态动态.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/LSTMMnist单层静态动态.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/MINIST" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/McellMNIST静态动态多层.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/Object Detection使用.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/Testjieba.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/cifar-10-batches-py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/get_variable与共享变量.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/get_variable和variable的区别.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/get_variable配合variable_scope.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/inception_resnet_v2使用.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/mnist分类.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/mnist多层分类.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/rnnPoetrytest.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/rnn_example.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/session使用示例.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/softmax应用.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/stopwords_ch.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/stopwords_en.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/testModel.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/word2vec.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/word2vec_model.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/yhyn.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/作用域与操作符的区别.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/保存检查点.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/初识mnist数据集.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/卷积函数使用.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/图的基本操作.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/查看模型内容.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/池化函数使用.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/线性回归.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/线性回归模型及载入.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/线性回归的tensorboard可视化.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/过拟合.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/过拟合L2正则化.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/退化学习率.py" charset="GBK" />
+  </component>
+</project>
