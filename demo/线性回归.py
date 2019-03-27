@@ -6,8 +6,8 @@ Created on Wed Jun 27 15:15:56 2018
 """
 
 import tensorflow as tf
-import numpy as np
-import matplotlib.pyplot as plt
+import numpy as np #生成数据时使用
+import matplotlib.pyplot as plt #图形化生成数据
 
 
 plotdata = { "batchsize":[], "loss":[] }
