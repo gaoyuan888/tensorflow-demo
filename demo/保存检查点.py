@@ -48,7 +48,7 @@ init = tf.global_variables_initializer()
 #参数设置
 training_epochs = 20
 display_step = 2
-saver = tf.train.Saver(max_to_keep=1) # 生成saver
+saver = tf.train.Saver(max_to_keep=1) # 生成saver，参数意思是保存最后一次检查点的模型
 savedir = "log/"
 # 启动session
 with tf.Session() as sess:
