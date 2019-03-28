@@ -6,7 +6,7 @@ Created on Wed Jun 27 15:15:56 2018
 
 """
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)#one_hot 编码方式 0 10000000000 010000000000
 
 print ('输入数据:',mnist.train.images)
 print ('输入数据打印shape:',mnist.train.images.shape)

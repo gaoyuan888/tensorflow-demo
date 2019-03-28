@@ -20,14 +20,14 @@ W = tf.Variable(tf.random_normal([784, 10]))
 b = tf.Variable(tf.zeros([10]))
 
 # 正向传播
-pred = tf.nn.softmax(tf.matmul(x, W) + b) # Softmax分类
+pred = tf.nn.softmax(tf.matmul(x, W) + b) # Softmax分类，分成0,1,2.3.4.6.7.8.9
 
 # 反向传播，将生成的pred与样本标签y进行一次交叉熵运算最小化误差cost
 cost = tf.reduce_mean(-tf.reduce_sum(y*tf.log(pred), reduction_indices=1))
 
 #参数设置
 learning_rate = 0.01
-# 使用梯度下降优化器
+#使用TF的梯度下降优化器设定的学习率不断优化W和b使cost最小化，最终使z与Y的误差最小。
 optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)
 
 training_epochs = 25
